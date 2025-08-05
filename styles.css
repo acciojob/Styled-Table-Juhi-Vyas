@@ -1,1 +1,41 @@
 /* your code */
+table{
+	border-radius: 18px;
+	background-color: #DCCFC0;
+	border-radius: 20px
+}
+
+thead{
+	margin: 0px;
+	background-color: #A2AF9B;
+}
+
+th{
+	margin: 0px;
+	padding: 10px;
+}
+
+td{
+	padding: 8px;
+	text-align:center
+}
+
+#name{
+	border-top-left-radius: 18px;
+}
+
+#win{
+	border-top-right-radius: 18px;
+}
+
+tr:nth-child(even){
+	background-color: #EEEEEE;
+}
+
+#strawberry{
+	border-bottom-left-radius: 18px;
+}
+
+#one{
+	border-bottom-right-radius: 18px;
+}
